@@ -1,0 +1,10 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: my-upods
+spec:
+  containers:
+   - name: gemini
+     image: patil2624/gemini
+     ports:
+      - containerPort: 8989	
